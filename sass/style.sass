@@ -320,7 +320,7 @@ html,body
 	border-bottom: 1px solid #f1f1f3
 
 .css_td1:nth-of-type(1),.css_td1:nth-of-type(2)
-	width: 30%
+	width: 27%
 
 .css_td1:nth-of-type(2)
 	text-decoration: underline
@@ -353,6 +353,27 @@ html,body
 		border-color: transparent transparent #A3A6B4 transparent
 		cursor: pointer
 
+#css_table2
+	display: table
+	width: 95%
+	margin: 20px auto
+.css_tr2
+	display: table-row
+
+.css_td2
+	display: table-cell
+	@include box-sizing(border-box)
+	height: 50px
+	padding: 15px
+	color: #636570
+	border-bottom: 1px solid #f1f1f3
+
+.css_tr2:nth-of-type(1)
+	background-color: #f5f6fa
+	font-weight: bold
+	color: #a9acba
+	border: none
+
 
 .overview
 	display: flex
@@ -365,6 +386,7 @@ html,body
 	display: inline-block
 	position: relative
 	color: #43425D
+	+box-shadow(rgba(#dddde5, 0.4) 0 0 18px, rgba(#dddde5, 0.2) 0 0 3px 1px inset)
 	& p
 		font-size: 15px
 		opacity: 0.5
@@ -395,6 +417,13 @@ html,body
 	margin-right: 0
 
 .boxdata .smallbox .cut
+	width: 100%
+	height: auto
+	margin-bottom: 60px
+	background-color: #fff
+	font-size: 13px
+	display: inline-block
+	@include box-sizing(border-box)
 	background-color: #f0f0f7
 
 .showmore

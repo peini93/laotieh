@@ -462,7 +462,7 @@ html, body {
 }
 
 .css_td1:nth-of-type(1), .css_td1:nth-of-type(2) {
-  width: 30%;
+  width: 27%;
 }
 
 .css_td1:nth-of-type(2) {
@@ -502,6 +502,34 @@ html, body {
   cursor: pointer;
 }
 
+#css_table2 {
+  display: table;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.css_tr2 {
+  display: table-row;
+}
+
+.css_td2 {
+  display: table-cell;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 15px;
+  color: #636570;
+  border-bottom: 1px solid #f1f1f3;
+}
+
+.css_tr2:nth-of-type(1) {
+  background-color: #f5f6fa;
+  font-weight: bold;
+  color: #a9acba;
+  border: none;
+}
+
 .overview {
   display: flex;
   flex-wrap: nowrap;
@@ -515,6 +543,9 @@ html, body {
   display: inline-block;
   position: relative;
   color: #43425D;
+  -moz-box-shadow: rgba(221, 221, 229, 0.4) 0 0 18px, rgba(221, 221, 229, 0.2) 0 0 3px 1px inset;
+  -webkit-box-shadow: rgba(221, 221, 229, 0.4) 0 0 18px, rgba(221, 221, 229, 0.2) 0 0 3px 1px inset;
+  box-shadow: rgba(221, 221, 229, 0.4) 0 0 18px, rgba(221, 221, 229, 0.2) 0 0 3px 1px inset;
 }
 .overview > div p {
   font-size: 15px;
@@ -555,6 +586,15 @@ html, body {
 }
 
 .boxdata .smallbox .cut {
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+  background-color: #fff;
+  font-size: 13px;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #f0f0f7;
 }
 
