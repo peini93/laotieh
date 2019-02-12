@@ -227,21 +227,36 @@ html, body {
 .menu ul li .add1 {
   background: url(../img/icon01.svg) 30px center no-repeat;
 }
+.menu ul li .add1:hover {
+  background: url(../img/icon01-1.svg) #3b3b53 30px center no-repeat;
+}
 
 .menu ul li .add2 {
   background: url(../img/icon02.svg) 30px center no-repeat;
+}
+.menu ul li .add2:hover {
+  background: url(../img/icon02-1.svg) #3b3b53 30px center no-repeat;
 }
 
 .menu ul li .add3 {
   background: url(../img/icon03.svg) 30px center no-repeat;
 }
+.menu ul li .add3:hover {
+  background: url(../img/icon03-1.svg) #3b3b53 30px center no-repeat;
+}
 
 .menu ul li .add4 {
   background: url(../img/icon04.svg) 30px center no-repeat;
 }
+.menu ul li .add4:hover {
+  background: url(../img/icon04-1.svg) #3b3b53 30px center no-repeat;
+}
 
 .menu ul li .add5 {
   background: url(../img/icon05.svg) 30px center no-repeat;
+}
+.menu ul li .add5:hover {
+  background: url(../img/icon05-1.svg) #3b3b53 30px center no-repeat;
 }
 
 .menu ul li a::before {
@@ -262,11 +277,27 @@ html, body {
   left: 0;
 }
 
-.menu ul li a:hover, .menu ul li a.atc {
-  background-color: #3b3b53;
+.menu ul li a.atc1 {
+  background: url(../img/icon01-1.svg) #3b3b53 30px center no-repeat;
 }
 
-.menu ul li a.atc::before {
+.menu ul li a.atc2 {
+  background: url(../img/icon02-1.svg) #3b3b53 30px center no-repeat;
+}
+
+.menu ul li a.atc3 {
+  background: url(../img/icon03-1.svg) #3b3b53 30px center no-repeat;
+}
+
+.menu ul li a.atc4 {
+  background: url(../img/icon04-1.svg) #3b3b53 30px center no-repeat;
+}
+
+.menu ul li a.atc5 {
+  background: url(../img/icon05-1.svg) #3b3b53 30px center no-repeat;
+}
+
+.menu ul li a.atc1::before, .menu ul li a.atc2::before, .menu ul li a.atc3::before, .menu ul li a.atc4::before, .menu ul li a.atc5::before {
   content: "";
   position: fixed;
   display: block;
@@ -278,7 +309,6 @@ html, body {
 
 .main {
   width: 100%;
-  height: 1080px;
   position: relative;
   display: inline-block;
   background-color: #f0f0f7;
@@ -288,6 +318,7 @@ html, body {
   width: 100%;
   height: 70px;
   position: fixed;
+  z-index: 100;
   top: 0;
   background-color: #fff;
   -moz-box-shadow: rgba(221, 221, 229, 0.4) 0 0 18px, rgba(221, 221, 229, 0.2) 0 0 3px 1px inset;
@@ -351,8 +382,8 @@ html, body {
 }
 
 .boxdata {
-  width: 1360px;
-  margin: 130px 0 0 150px;
+  width: 1080px;
+  margin: 130px 0 0 80px;
 }
 .boxdata .smallbox {
   width: 100%;
@@ -543,9 +574,18 @@ html, body {
   text-decoration: underline;
 }
 
-.footer {
+.footer_index {
   width: 100%;
   height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+  color: #4D4F5C;
+}
+
+.footer {
+  height: 30px;
+  margin-left: 230px;
   line-height: 30px;
   font-size: 12px;
   text-align: center;
