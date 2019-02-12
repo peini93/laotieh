@@ -142,20 +142,19 @@ html,body
 		line-height: 70px
 		padding-left: 60px
 		color: #fff
-
-.menu ul li a:nth-of-type(1)
+.menu ul li .add1
 	background: url(#{$img}icon01.svg) 30px center no-repeat
 
-.menu ul li a:nth-of-type(2)
+.menu ul li .add2
 	background: url(#{$img}icon02.svg) 30px center no-repeat
 
-.menu ul li a:nth-of-type(3)
+.menu ul li .add3
 	background: url(#{$img}icon03.svg) 30px center no-repeat
 
-.menu ul li a:nth-of-type(4)
+.menu ul li .add4
 	background: url(#{$img}icon04.svg) 30px center no-repeat
 
-.menu ul li a:nth-of-type(5)
+.menu ul li .add5
 	background: url(#{$img}icon05.svg) 30px center no-repeat
 
 .menu ul li a::before
@@ -173,6 +172,15 @@ html,body
 
 .menu ul li a:hover ,.menu ul li a.atc
 	background-color: #3b3b53
+
+.menu ul li a.atc::before 
+	content: ""
+	position: fixed
+	display: block
+	width: 5px
+	height: 70px
+	background-color: #A3A0FB
+	left: 0
 
 .main
 	width: 100%
@@ -246,6 +254,7 @@ html,body
 		& .box
 			width: 100%
 			height: auto
+			margin-bottom: 40px
 			background-color: #fff
 			font-size: 13px
 			display: inline-block
@@ -275,6 +284,99 @@ html,body
 
 .css_td:nth-of-type(1)
 	width: 80%
+
+#css_table1
+	display: table
+	width: 95%
+	margin: 20px auto
+.css_tr1
+	display: table-row
+
+.css_td1
+	display: table-cell
+	@include box-sizing(border-box)
+	height: 50px
+	padding: 15px
+	color: #636570
+	border-bottom: 1px solid #f1f1f3
+
+.css_td1:nth-of-type(1),.css_td1:nth-of-type(2)
+	width: 30%
+
+.css_td1:nth-of-type(2)
+	text-decoration: underline
+
+.css_td1:nth-of-type(3),.css_td1:nth-of-type(4),.css_td1:nth-of-type(5),.css_td1:nth-of-type(6)
+	text-align: center
+
+.css_tr1:nth-of-type(1)
+	background-color: #f5f6fa
+	font-weight: bold
+	color: #a9acba
+	border: none
+
+.css_tr1 .none
+	text-decoration: none
+
+.css_tr1 .tag
+	background-color: #dcdbfa
+	color: #A3A6B4
+	position: relative
+	&::after
+		content: ""
+		position: absolute
+		top: 20px
+		right: 20px
+		width: 0
+		height: 0
+		border-style: solid
+		border-width: 0px 6px 10px 6px
+		border-color: transparent transparent #A3A6B4 transparent
+		cursor: pointer
+
+
+.overview
+	display: flex
+	flex-wrap: nowrap
+.overview > div
+	width: (100%/5)
+	height: 130px
+	background-color: #fff
+	margin-right: 16px
+	display: inline-block
+	position: relative
+	color: #43425D
+	& p
+		font-size: 15px
+		opacity: 0.5
+		margin: 20px 0 0 20px
+	& h3
+		font-size: 25px
+		opacity: 1
+		margin: 50px 0 0 20px
+		font-weight: bold
+	& .icon
+		width: 47px
+		height: 47px
+		position: absolute
+		top: -10px
+		right: 20px
+	& .i1
+		background: url(#{$img}symbol01.svg) no-repeat
+	& .i2
+		background: url(#{$img}symbol02.svg) no-repeat
+	& .i3
+		background: url(#{$img}symbol03.svg) no-repeat
+	& .i4
+		background: url(#{$img}symbol04.svg) no-repeat
+	& .i5
+		background: url(#{$img}symbol04.svg) no-repeat
+
+.overview > div:nth-of-type(5)
+	margin-right: 0
+
+.boxdata .smallbox .cut
+	background-color: #f0f0f7
 
 .showmore
 	width: 100%
