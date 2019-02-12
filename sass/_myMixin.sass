@@ -80,6 +80,10 @@
 	@include transform(rotate(#{$deg}deg))
 	@content
 
+@mixin translate ($x, $y)
+	@include transform(translate($x, $y))
+	@content
+
 @mixin filter($filter-type,$filter-amount)
 	-webkit-filter: $filter-type+unquote('(#{$filter-amount})')
 	-moz-filter: $filter-type+unquote('(#{$filter-amount})')
