@@ -8,7 +8,7 @@
     <meta name="description" content="Laot’ieh" />
     <link rel="shortcut icon" href="img/kaiwen.ico">
 	<title>Laot’ieh</title>
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
@@ -57,23 +57,129 @@
                 </div>
             </div>
             <h2>Fanpages</h2>
-            <div class="box">
-                <div id="css_table2">
-                    <div class="css_tr2">
-                        <div class="css_td2">Fanpage Name</div>
-                        <div class="css_td2">Category</div>
-                        <div class="css_td2">Score</div>
-                        <div class="css_td2">KOL Size</div>
+            <div class="cut">
+                <div class="data">
+                    <div>
+                        <div id="css_table2">
+                            <div class="css_tr2">
+                                <div class="css_td2">Fanpage Name</div>
+                                <div class="css_td2">Category</div>
+                                <div class="css_td2">Score</div>
+                                <div class="css_td2">KOL Size</div>
+                            </div>
+                            <div class="css_tr2">
+                                <div class="css_td2">Sed ut perspiciatis unde omnis iste natus…</div>
+                                <div class="css_td2">Social group</div>
+                                <div class="css_td2">
+                                    752
+                                    <div class="linebar">
+                                        <div class="barcolor" style="width:100%"></div>
+                                    </div>
+                                </div>
+                                <div class="css_td2">100-500K</div>
+                            </div>
+                            <div class="css_tr2">
+                                <div class="css_td2">Sed ut perspiciatis unde omnis iste natus…</div>
+                                <div class="css_td2">Social group</div>
+                                <div class="css_td2">
+                                    752
+                                    <div class="linebar">
+                                        <div class="barcolor" style="width:60%"></div>
+                                    </div>
+                                </div>
+                                <div class="css_td2">100-500K</div>
+                            </div>
+                            <div class="css_tr2">
+                                <div class="css_td2">Sed ut perspiciatis unde omnis iste natus…</div>
+                                <div class="css_td2">Social group</div>
+                                <div class="css_td2">
+                                    752
+                                    <div class="linebar">
+                                        <div class="barcolor" style="width:50%"></div>
+                                    </div>
+                                </div>
+                                <div class="css_td2">100-500K</div>
+                            </div>
+                            <div class="css_tr2">
+                                <div class="css_td2">Sed ut perspiciatis unde omnis iste natus…</div>
+                                <div class="css_td2">Social group</div>
+                                <div class="css_td2">
+                                    752
+                                    <div class="linebar">
+                                        <div class="barcolor" style="width:70%"></div>
+                                    </div>
+                                </div>
+                                <div class="css_td2">100-500K</div>
+                            </div>
+                            <div class="css_tr2">
+                                <div class="css_td2">Sed ut perspiciatis unde omnis iste natus…</div>
+                                <div class="css_td2">Social group</div>
+                                <div class="css_td2">
+                                    752
+                                    <div class="linebar">
+                                        <div class="barcolor" style="width:50%"></div>
+                                    </div>
+                                </div>
+                                <div class="css_td2">100-500K</div>
+                            </div>
+                            <div class="css_tr2">
+                                <div class="css_td2">Sed ut perspiciatis unde omnis iste natus…</div>
+                                <div class="css_td2">Social group</div>
+                                <div class="css_td2">
+                                    752
+                                    <div class="linebar">
+                                        <div class="barcolor" style="width:60%"></div>
+                                    </div>
+                                </div>
+                                <div class="css_td2">100-500K</div>
+                            </div>
+                            <div class="css_tr2">
+                                <div class="css_td2">Sed ut perspiciatis unde omnis iste natus…</div>
+                                <div class="css_td2">Social group</div>
+                                <div class="css_td2">
+                                    752
+                                    <div class="linebar">
+                                        <div class="barcolor" style="width:80%"></div>
+                                    </div>
+                                </div>
+                                <div class="css_td2">100-500K</div>
+                            </div>
+                        </div>
+                        <div class="showmore">
+                            <a href="javascript:;" title="showmore">Show More</a>
+                        </div> 
                     </div>
-                    <div class="css_tr2">
-                        <div class="css_td2">Sed ut perspiciatis unde omnis iste natus…</div>
-                        <div class="css_td2">Social group</div>
-                        <div class="css_td2">752</div>
-                        <div class="css_td2">100-500K</div>
+                    <div>
+                        <div id="css_table3">
+                             <div class="css_tr3">
+                                <div class="css_td3">Filter</div>
+                            </div>
+                            <div class="css_tr3">
+                                <div class="css_td3">
+                                    <p>Score</p>
+                                    <input type="text" id="amount" readonly style="border:0; color:#2D2E33; font-weight:bold;">
+                                    <div id="slider-range"></div>
+                                </div>
+                            </div>
+                            <div class="css_tr3">
+                                <div class="css_td3">
+                                    <p>KOL Size</p>
+                                    <div class="listbox">
+                                        <div><a href="javascript:;">500K+</a></div>
+                                        <div><a href="javascript:;">100-500K</a></div>
+                                        <div><a href="javascript:;">50-100K</a></div>
+                                        <div><a href="javascript:;">10-50K</a></div>
+                                        <div><a href="javascript:;">10K-</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="css_tr3">
+                                <div class="css_td3">
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="showmore">
-                    <a href="javascript:;" title="showmore">Show More</a>
                 </div>
             </div>
         </div>
@@ -87,6 +193,7 @@
 </div>
 </body>
 <script src="js/lib/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="js/lib/TweenMax.min.js"></script>
 <script src="js/page.js"></script>
 </html>
