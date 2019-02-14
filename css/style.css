@@ -372,8 +372,11 @@ input {
   margin-left: 30px;
 }
 .main .bar .postid .id p {
-  width: 70px;
+  width: 100px;
   display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .main .bar .postid .id a {
   display: inline-block;
