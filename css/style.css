@@ -644,6 +644,13 @@ input {
   padding: 10px;
   color: #2D2E33;
 }
+.css_td3 .tagbox a {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url(../img/close.svg) no-repeat;
+  margin-left: 10px;
+}
 
 .css_tr3:nth-of-type(1) {
   background-color: #f5f6fa;
