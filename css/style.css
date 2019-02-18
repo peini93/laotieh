@@ -568,8 +568,20 @@ input {
 .css_td3 p {
   color: #2D2E33;
 }
-.css_td3 input {
+.css_td3 .irs--flat.irs-with-grid {
   margin-top: 20px;
+}
+.css_td3 .irs--flat .irs-bar {
+  background-color: #43425D;
+}
+.css_td3 .irs--flat .irs-from, .css_td3 .irs--flat .irs-to, .css_td3 .irs--flat .irs-single {
+  background-color: #A3A0FB;
+}
+.css_td3 .irs--flat .irs-from:before, .css_td3 .irs--flat .irs-to:before, .css_td3 .irs--flat .irs-single:before {
+  border-top-color: #A3A0FB;
+}
+.css_td3 .irs--flat .irs-handle > i:first-child {
+  background-color: #43425D;
 }
 .css_td3 .listbox {
   display: flex;

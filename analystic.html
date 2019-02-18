@@ -8,7 +8,8 @@
     <meta name="description" content="Laot’ieh" />
     <link rel="shortcut icon" href="img/kaiwen.ico">
 	<title>Laot’ieh</title>
-    <link rel="stylesheet" href="css/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="css/jquery-ui.css"> -->
+    <link rel="stylesheet" href="css/ion.rangeSlider.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
@@ -158,8 +159,7 @@
                             <div class="css_tr3">
                                 <div class="css_td3">
                                     <p>Score</p>
-                                    <input type="text" id="amount" readonly style="border:0; color:#2D2E33; font-weight:bold;">
-                                    <div id="slider-range"></div>
+                                    <input type="text" class="js-range-slider" name="my_range" value="" />
                                 </div>
                             </div>
                             <div class="css_tr3">
@@ -207,6 +207,7 @@
 </body>
 <script src="js/lib/jquery-1.11.0.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
 <script src="js/lib/TweenMax.min.js"></script>
 <script src="js/page.js"></script>
 </html>
