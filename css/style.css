@@ -596,8 +596,10 @@ input {
   -moz-border-radius: 4px;
   margin-top: 20px;
   margin-right: 5px;
+  display: flex;
 }
 .css_td3 .listbox > div a {
+  flex: 1;
   display: block;
   padding: 10px;
   color: #2D2E33;
@@ -612,6 +614,7 @@ input {
   background-color: #91AAFB;
 }
 .css_td3 .listbox > div a.got {
+  flex: 1;
   display: block;
   padding: 10px;
   color: #fff;
