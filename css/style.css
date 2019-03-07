@@ -611,6 +611,12 @@ input {
   color: #fff;
   background-color: #91AAFB;
 }
+.css_td3 .listbox > div a.got {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  background-color: #91AAFB;
+}
 .css_td3 .btnbox {
   display: flex;
   flex-wrap: nowrap;
